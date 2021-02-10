@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Vinayak's Personal Site</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="circle-cropped.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="block-one">
+
+
+
+    <img class="logo" src="WhatsApp Image 2021-01-21 at 5.53.31 PM.jpeg" alt="Profile picture">
+
+    <div class="heading">
+      <h1>I'm Vinayak Garg.</h1>
+      <p style="font-family: 'Shadows Into Light Two', cursive;">a Web Developer.</p>
+
+    </div>
+    <br>
+    <div class="middle-container">
+
+
+      <p class="intro">1st year student at <strong><a style="text-decoration: None; color:#232320"" href=" https://www.iitr.ac.in/">
+            IIT Roorkee
+          </a></strong>
+        persuing degree of btech in <strong><a style="text-decoration: None; color:#232320" href="https://expectations.iitr.ac.in/branches.html?title=Polymer%2520and%2520Process">Polymer and Process Engineering.</a></strong></P>
+    </div>
+    <br>
+    <div class="bottom-container">
+
+
+      <div class="linkedin">
+
+        <a class="footer-link" href="https://www.linkedin.com/in/vinayak-garg-525b34204/"><img class="contact" src="linkedin.svg" alt=""></a>
+      </div>
+      <div class="gmail">
+
+        <a class="btn" href="mailto:hi2002vinayakgarg@email.com"> <img class="contact" src="email.png" alt=""></a>
+
+      </div>
+
+      <div class="fb">
+        <a class="footer-link" href="https://www.facebook.com/vinayak2002garg">
+          <img class="contact" src="facebook.svg" alt="">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="main">
+    <h2 class="edu">Education</h2>
+
+    <div class="slideshow-container">
+
+      <a href="https://www.iitr.ac.in/">
+        <div class="mySlides ">
+          <div class="numbertext">1 / 3</div>
+          <img class="img" src="iitr.jpg" style="width:100%">
+          <div class="text">IIT Roorkee</div>
+        </div>
+      </a>
+
+      <a href="https://www.modernschool.ac.in/index1.php">
+        <div class="mySlides ">
+          <div class="numbertext">2 / 3</div>
+          <img class="img" src="WhatsApp Image 2021-01-21 at 11.54.17 PM.jpeg" style="width:100%">
+          <div class="text">Modern School Kota</div>
+        </div>
+      </a>
+
+      <a href="https://www.resonance.ac.in/">
+        <div class="mySlides ">
+          <div class="numbertext">3 / 3</div>
+          <img class="img" src="Resonance-STANDYOU.jpg" style="width:100%">
+          <div class="text">Resonance Institute Kota</div>
+        </div>
+      </a>
+
+
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000);
+      }
+    </script>
+  </div>
+
+  <div class="block-three">
+    <h2>Skills</h2>
+    <div class="last">
+
+      <div class="box-one box">
+        <img class="skill-logo" src="download.png" alt="">
+        HTML5
+
+      </div>
+      <div class="box-Two box">
+        <img class="skill-logo" src="css3-57b597e85f9b58b5c2b338de.jpg" alt="">
+        CSS3
+      </div>
+      <div class="box-three box"><img class="skill-logo" src="download (1).png" alt="">
+        Bootstrap 4
+      </div>
+      <br>
+      <div class="box-four box"><img class="skill-logo" style="height:150px; width:163px;" src="J.png" alt="">
+        Java Script
+      </div>
+
+
+      <div class="box-five box"><img class="skill-logo" style="height: 150px; width: 172px;" src="197px-ISO_C++_Logo.svg.png" alt="">
+        C++
+      </div>
+
+      <div class="box-six box"><img class="skill-logo" src="GettyImages-1211443622.jpg" alt="">
+        Network Hacking
+      </div>
+
+    </div>
+
+
+  </div>
+  </div>
+  </div>
+  <div class="block-four">
+    <h2>Hobbies</h2>
+    <div class="hobbies-box">
+      <div class="box-one hobbies">
+
+        🥮 <br>Baking
+      </div>
+
+      <div class="box-Two hobbies">
+
+        🎥 <br>Watching Movies
+      </div>
+      <div class="box-three hobbies">
+        📻 <br>80's Retro Music
+      </div>
+      <br>
+      <div class="box-four hobbies">
+        💻 <br>Coding
+      </div>
+
+
+      <div class="box-five hobbies">
+        🚴 <br>Cycling
+      </div>
+
+      <div class="box-six hobbies">
+        🏸 <br>Sports
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="block-five">
+    <h2>Extra-Curriculars</h2>
+    <div class="Extra-curriculars">
+
+      <div class="curricular">
+        <img class="extra" src="cogni.png" alt=""><br>
+        <b> Web Developer <br>Cognizance</b>
+      </div>
+      <div class="curricular">
+
+
+        <img class="extra" src="133943761_3722849364428188_7692562623933006431_o.jpg" alt=""><br>
+        <b>Syntax Error <br>Hackathon</b>
+      </div>
+      <div class="curricular">
+        <img class="extra" src="Screenshot.png" alt=""><br><b>IIT Roorkee <br>Sponsorship Cell</b>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+</html>
